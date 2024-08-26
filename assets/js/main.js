@@ -2,6 +2,8 @@ import { Articulo } from "./classes/Articulo.js";
 import { Proveedor } from "./classes/Proveedor.js";
 import { TipoProveedor } from "./classes/TipoProveedor.js";
 
+
+// leefood
 const tomatesSanMarzano = new Articulo({
   nombre: "Tomates San Marzano 2.5kg",
   precio: 15000,
@@ -22,6 +24,8 @@ const soju = new Articulo({ nombre: "Soju original", precio: 3000 });
 leefood.agregarArticulo(soju);
 console.log(leefood.getInfoProveedor());
 console.log(leefood.calcularImpuesto());
+
+
 
 // qifood
 const tomate = new Articulo({
